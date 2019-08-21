@@ -34,8 +34,7 @@ function Country(props) {
                   <b>Country currency:</b> <span>{country.currency}</span>
                 </CountryCardProp>
                 <CountryCardProp>
-                  {' '}
-                  <b>Country phone:</b> <span>+ {country.phone}</span>
+                  <b>Country phone code:</b> <span>+{country.phone}</span>
                 </CountryCardProp>
               </CountryCardProps>
             </CountryCardText>
