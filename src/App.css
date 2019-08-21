@@ -1,3 +1,7 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
 
 .navigation-container {
   display: flex;
