@@ -49,7 +49,7 @@ function Countries() {
                     </CountryCardProp>
                   </CountryCardProps>
                 </CountryCardText>
-                <CountryCardButton href={`country/${country.code}`}>
+                <CountryCardButton href={`countries/${country.code}`}>
                   Details
                 </CountryCardButton>
               </CountryCard>
